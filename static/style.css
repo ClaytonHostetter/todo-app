@@ -1,0 +1,70 @@
+body {
+    font-family: -apple-system, Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px;
+    background: white;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+li span {
+    flex: 1;
+    font-size: 16px;
+}
+
+li.done span {
+    text-decoration: line-through;
+    color: #999;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 4px;
+}
+
+a.delete {
+    color: #c00;
+}
